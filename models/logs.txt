@@ -1,0 +1,112 @@
+Namespace(augment=False, batch_size=32, conf_thres=0.65, data='./data/circle.yaml', device='2,3', exist_ok=False, img_size=640, iou_thres=0.5, name='circle2circle', project='runs/test', prune_rate=0, save_conf=False, save_hybrid=False, save_json=False, save_txt=False, single_cls=False, task='val', verbose=False, weights=['./runs/train/circle/weights/best.pt'], write_prune=False)
+Fusing layers... 
+                 all          36          72           1           1           1       0.934
+                body          36          36           1           1           1       0.947
+               mouth          36          36           1           1           1       0.921
+Speed: 1.9/1.4/3.3 ms inference/NMS/total per 640x640 image at batch-size 32
+Results saved to runs/test/circle2circle
+Namespace(augment=False, batch_size=32, conf_thres=0.65, data='./data/ellipse.yaml', device='2,3', exist_ok=False, img_size=640, iou_thres=0.5, name='circle2ellipse', project='runs/test', prune_rate=0, save_conf=False, save_hybrid=False, save_json=False, save_txt=False, single_cls=False, task='val', verbose=False, weights=['./runs/train/circle/weights/best.pt'], write_prune=False)
+Fusing layers... 
+                 all          72         144       0.986       0.868       0.863       0.434
+                body          72          72       0.972       0.972       0.958       0.268
+               mouth          72          72           1       0.764       0.769         0.6
+Speed: 3.3/4.4/7.7 ms inference/NMS/total per 640x640 image at batch-size 32
+Results saved to runs/test/circle2ellipse
+Namespace(augment=False, batch_size=32, conf_thres=0.65, data='./data/raindrop.yaml', device='2,3', exist_ok=False, img_size=640, iou_thres=0.5, name='circle2raindrop', project='runs/test', prune_rate=0, save_conf=False, save_hybrid=False, save_json=False, save_txt=False, single_cls=False, task='val', verbose=False, weights=['./runs/train/circle/weights/best.pt'], write_prune=False)
+Fusing layers... 
+                 all          81         162        0.52       0.568        0.28      0.0853
+                body          81          81       0.301       0.778        0.25      0.0507
+               mouth          81          81       0.739       0.358       0.311        0.12
+Speed: 3.7/3.2/6.9 ms inference/NMS/total per 640x640 image at batch-size 32
+Results saved to runs/test/circle2raindrop
+Namespace(augment=False, batch_size=32, conf_thres=0.65, data='./data/mix.yaml', device='2,3', exist_ok=False, img_size=640, iou_thres=0.5, name='circle2mix', project='runs/test', prune_rate=0, save_conf=False, save_hybrid=False, save_json=False, save_txt=False, single_cls=False, task='val', verbose=False, weights=['./runs/train/circle/weights/best.pt'], write_prune=False)
+Fusing layers... 
+                 all         189         378       0.726       0.765       0.605       0.329
+                body         189         189       0.533       0.894        0.58       0.197
+               mouth         189         189       0.919       0.635        0.63       0.461
+Speed: 1.7/3.2/4.9 ms inference/NMS/total per 640x640 image at batch-size 32
+Results saved to runs/test/circle2mix
+Namespace(augment=False, batch_size=32, conf_thres=0.65, data='./data/circle.yaml', device='2,3', exist_ok=False, img_size=640, iou_thres=0.5, name='ellipse2circle', project='runs/test', prune_rate=0, save_conf=False, save_hybrid=False, save_json=False, save_txt=False, single_cls=False, task='val', verbose=False, weights=['./runs/train/ellipse/weights/best.pt'], write_prune=False)
+Fusing layers... 
+                 all          36          72           1           1           1       0.816
+                body          36          36           1           1           1        0.77
+               mouth          36          36           1           1           1       0.862
+Speed: 1.9/1.7/3.5 ms inference/NMS/total per 640x640 image at batch-size 32
+Results saved to runs/test/ellipse2circle
+Namespace(augment=False, batch_size=32, conf_thres=0.65, data='./data/ellipse.yaml', device='2,3', exist_ok=False, img_size=640, iou_thres=0.5, name='ellipse2ellipse', project='runs/test', prune_rate=0, save_conf=False, save_hybrid=False, save_json=False, save_txt=False, single_cls=False, task='val', verbose=False, weights=['./runs/train/ellipse/weights/best.pt'], write_prune=False)
+Fusing layers... 
+                 all          72         144           1           1           1       0.935
+                body          72          72           1           1           1       0.943
+               mouth          72          72           1           1           1       0.927
+Speed: 3.3/4.9/8.2 ms inference/NMS/total per 640x640 image at batch-size 32
+Results saved to runs/test/ellipse2ellipse
+Namespace(augment=False, batch_size=32, conf_thres=0.65, data='./data/raindrop.yaml', device='2,3', exist_ok=False, img_size=640, iou_thres=0.5, name='ellipse2raindrop', project='runs/test', prune_rate=0, save_conf=False, save_hybrid=False, save_json=False, save_txt=False, single_cls=False, task='val', verbose=False, weights=['./runs/train/ellipse/weights/best.pt'], write_prune=False)
+Fusing layers... 
+                 all          81         162           1        0.92       0.925       0.632
+                body          81          81           1       0.852       0.857       0.548
+               mouth          81          81           1       0.988       0.993       0.716
+Speed: 3.5/2.7/6.2 ms inference/NMS/total per 640x640 image at batch-size 32
+Results saved to runs/test/ellipse2raindrop
+Namespace(augment=False, batch_size=32, conf_thres=0.65, data='./data/mix.yaml', device='2,3', exist_ok=False, img_size=640, iou_thres=0.5, name='ellipse2mix', project='runs/test', prune_rate=0, save_conf=False, save_hybrid=False, save_json=False, save_txt=False, single_cls=False, task='val', verbose=False, weights=['./runs/train/ellipse/weights/best.pt'], write_prune=False)
+Fusing layers... 
+                 all         189         378           1       0.966       0.969       0.781
+                body         189         189           1       0.937       0.942       0.732
+               mouth         189         189           1       0.995       0.997        0.83
+Speed: 1.8/2.8/4.6 ms inference/NMS/total per 640x640 image at batch-size 32
+Results saved to runs/test/ellipse2mix
+Namespace(augment=False, batch_size=32, conf_thres=0.65, data='./data/circle.yaml', device='2,3', exist_ok=False, img_size=640, iou_thres=0.5, name='raindrop2circle', project='runs/test', prune_rate=0, save_conf=False, save_hybrid=False, save_json=False, save_txt=False, single_cls=False, task='val', verbose=False, weights=['./runs/train/raindrop/weights/best.pt'], write_prune=False)
+Fusing layers... 
+                 all          36          72           1       0.847        0.85       0.564
+                body          36          36           1           1           1       0.757
+               mouth          36          36           1       0.694       0.699       0.372
+Speed: 3.8/1.6/5.3 ms inference/NMS/total per 640x640 image at batch-size 32
+Results saved to runs/test/raindrop2circle
+Namespace(augment=False, batch_size=32, conf_thres=0.65, data='./data/ellipse.yaml', device='2,3', exist_ok=False, img_size=640, iou_thres=0.5, name='raindrop2ellipse', project='runs/test', prune_rate=0, save_conf=False, save_hybrid=False, save_json=False, save_txt=False, single_cls=False, task='val', verbose=False, weights=['./runs/train/raindrop/weights/best.pt'], write_prune=False)
+Fusing layers... 
+                 all          72         144           1       0.993       0.996        0.61
+                body          72          72           1           1           1       0.436
+               mouth          72          72           1       0.986       0.991       0.783
+Speed: 3.5/4.3/7.8 ms inference/NMS/total per 640x640 image at batch-size 32
+Results saved to runs/test/raindrop2ellipse
+Namespace(augment=False, batch_size=32, conf_thres=0.65, data='./data/raindrop.yaml', device='2,3', exist_ok=False, img_size=640, iou_thres=0.5, name='raindrop2raindrop', project='runs/test', prune_rate=0, save_conf=False, save_hybrid=False, save_json=False, save_txt=False, single_cls=False, task='val', verbose=False, weights=['./runs/train/raindrop/weights/best.pt'], write_prune=False)
+Fusing layers... 
+                 all          81         162           1           1           1       0.924
+                body          81          81           1           1           1       0.944
+               mouth          81          81           1           1           1       0.904
+Speed: 3.3/2.2/5.6 ms inference/NMS/total per 640x640 image at batch-size 32
+Results saved to runs/test/raindrop2raindrop
+Namespace(augment=False, batch_size=32, conf_thres=0.65, data='./data/mix.yaml', device='2,3', exist_ok=False, img_size=640, iou_thres=0.5, name='raindrop2mix', project='runs/test', prune_rate=0, save_conf=False, save_hybrid=False, save_json=False, save_txt=False, single_cls=False, task='val', verbose=False, weights=['./runs/train/raindrop/weights/best.pt'], write_prune=False)
+Fusing layers... 
+                 all         189         378           1       0.968       0.971       0.733
+                body         189         189           1           1           1         0.7
+               mouth         189         189           1       0.937       0.942       0.767
+Speed: 1.4/2.3/3.7 ms inference/NMS/total per 640x640 image at batch-size 32
+Results saved to runs/test/raindrop2mix
+Namespace(augment=False, batch_size=32, conf_thres=0.65, data='./data/circle.yaml', device='2,3', exist_ok=False, img_size=640, iou_thres=0.5, name='mix2circle', project='runs/test', prune_rate=0, save_conf=False, save_hybrid=False, save_json=False, save_txt=False, single_cls=False, task='val', verbose=False, weights=['./runs/train/mix/weights/best.pt'], write_prune=False)
+Fusing layers... 
+                 all          36          72           1           1           1        0.97
+                body          36          36           1           1           1       0.988
+               mouth          36          36           1           1           1       0.953
+Speed: 2.6/1.5/4.2 ms inference/NMS/total per 640x640 image at batch-size 32
+Results saved to runs/test/mix2circle
+Namespace(augment=False, batch_size=32, conf_thres=0.65, data='./data/ellipse.yaml', device='2,3', exist_ok=False, img_size=640, iou_thres=0.5, name='mix2ellipse', project='runs/test', prune_rate=0, save_conf=False, save_hybrid=False, save_json=False, save_txt=False, single_cls=False, task='val', verbose=False, weights=['./runs/train/mix/weights/best.pt'], write_prune=False)
+Fusing layers... 
+                 all          72         144           1           1           1       0.953
+                body          72          72           1           1           1       0.984
+               mouth          72          72           1           1           1       0.922
+Speed: 3.2/4.3/7.4 ms inference/NMS/total per 640x640 image at batch-size 32
+Results saved to runs/test/mix2ellipse
+Namespace(augment=False, batch_size=32, conf_thres=0.65, data='./data/raindrop.yaml', device='2,3', exist_ok=False, img_size=640, iou_thres=0.5, name='mix2raindrop', project='runs/test', prune_rate=0, save_conf=False, save_hybrid=False, save_json=False, save_txt=False, single_cls=False, task='val', verbose=False, weights=['./runs/train/mix/weights/best.pt'], write_prune=False)
+Fusing layers... 
+                 all          81         162           1       0.994       0.996       0.938
+                body          81          81           1       0.988       0.993       0.962
+               mouth          81          81           1           1           1       0.914
+Speed: 1.9/1.8/3.7 ms inference/NMS/total per 640x640 image at batch-size 32
+Results saved to runs/test/mix2raindrop
+Namespace(augment=False, batch_size=32, conf_thres=0.65, data='./data/mix.yaml', device='2,3', exist_ok=False, img_size=640, iou_thres=0.5, name='mix2mix', project='runs/test', prune_rate=0, save_conf=False, save_hybrid=False, save_json=False, save_txt=False, single_cls=False, task='val', verbose=False, weights=['./runs/train/mix/weights/best.pt'], write_prune=False)
+Fusing layers... 
+                 all         189         378           1       0.997       0.999       0.947
+                body         189         189           1       0.995       0.997       0.974
+               mouth         189         189           1           1           1       0.921
+Speed: 2.0/2.7/4.6 ms inference/NMS/total per 640x640 image at batch-size 32
+Results saved to runs/test/mix2mix
